@@ -1,0 +1,39 @@
+/* root as solution without !important */
+:root body:not([id="-blink-dev-tools"]) :not([class*="icon-"]):not([class*="fa-"]):not([class*="cm-"]):not([class*="ti-"]):not([class*="ms-Icon--"]):not([class*="rouble"]):not([class="font-fontello"]):not([class="mdi"]):not([class*="mdi-"]):not([class*="ace_"])
+{
+	font-family: Arial, Tahoma, sans-serif;
+}
+
+:root {
+	--paper-input-container-shared-input-style_-_font-family: Arial, Tahoma, sans-serif !important;
+	--paper-font-common-base_-_font-family: Arial, Tahoma, sans-serif !important;
+}
+
+html, body:not([id="-blink-dev-tools"]),
+h1, h2, h3, h4, h5, h6, input,
+/* YouTube Search input */
+#search-input.ytd-searchbox-spt input,
+/* Google Recaptcha */
+.rc-anchor-checkbox-label {
+	font-family: Arial, Tahoma, sans-serif !important;
+}
+
+.selector__glyph-image {
+	font-family: fontello !important;
+}
+
+var, pre, pre *,
+code, code *, 
+.sql-highlight span,
+[class*="highlight-source-"] *, .highlight *, .w3-code *,
+#code_frame2 *, #code_frame *,
+.line-gutter-backdrop + table {
+	font-family: "Terminus (TTF) for Windows", Consolas, monospace !important;
+	font-size: 12px !important;
+}
+
+/* devtools */
+td.line-content {
+	font-family: "Terminus (TTF) for Windows", Consolas, monospace !important;
+	font-size: 12px !important;	
+}
