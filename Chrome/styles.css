@@ -1,7 +1,7 @@
 /* root as solution without !important */
-body:not(#-blink-dev-tools) :not([class*="icon-"]):not([class*="fa-"]):not(.fa):not([class*="cm-"]):not([class*="ti-"]):not([class*="ms-Icon--"]):not([class*="rouble"]):not([class="font-fontello"]):not([class="mdi"]):not([class*="mdi-"]):not([class*="ace_"])
+:root body:not(#-blink-dev-tools) :not([class*="icon-"]):not([class*="fa-"]):not(.fa):not([class*="cm-"]):not([class*="ti-"]):not([class*="ms-Icon--"]):not([class*="rouble"]):not([class="font-fontello"]):not([class="mdi"]):not([class*="mdi-"]):not([class*="ace_"])
 {
-	font-family: Arial, Tahoma, sans-serif !important;
+	font-family: Arial, Tahoma, sans-serif;
 }
 
 :root {
@@ -10,11 +10,7 @@ body:not(#-blink-dev-tools) :not([class*="icon-"]):not([class*="fa-"]):not(.fa):
 }
 
 html, body:not([id="-blink-dev-tools"]),
-h1, h2, h3, h4, h5, h6, input,
-/* YouTube Search input */
-#search-input.ytd-searchbox-spt input,
-/* Google Recaptcha */
-.rc-anchor-checkbox-label {
+h1, h2, h3, h4, h5, h6, input {
 	font-family: Arial, Tahoma, sans-serif !important;
 }
 
