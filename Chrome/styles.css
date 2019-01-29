@@ -1,7 +1,7 @@
 /* root as solution without !important */
-:root body:not([id="-blink-dev-tools"]) :not([class*="icon-"]):not([class*="fa-"]):not([class*="cm-"]):not([class*="ti-"]):not([class*="ms-Icon--"]):not([class*="rouble"]):not([class="font-fontello"]):not([class="mdi"]):not([class*="mdi-"]):not([class*="ace_"])
+body:not(#-blink-dev-tools) :not([class*="icon-"]):not([class*="fa-"]):not(.fa):not([class*="cm-"]):not([class*="ti-"]):not([class*="ms-Icon--"]):not([class*="rouble"]):not([class="font-fontello"]):not([class="mdi"]):not([class*="mdi-"]):not([class*="ace_"])
 {
-	font-family: Arial, Tahoma, sans-serif;
+	font-family: Arial, Tahoma, sans-serif !important;
 }
 
 :root {
