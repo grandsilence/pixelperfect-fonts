@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5, h6, input {
 	font-family: Arial, Tahoma, sans-serif !important;
 }
 
+b, strong {
+    font-weight: 600 !important;
+}
+
 .selector__glyph-image {
 	font-family: fontello !important;
 }
