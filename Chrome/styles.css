@@ -34,7 +34,7 @@ code, code *,
 .line-gutter-backdrop + table,
 p.text-mono, div.text-mono, span.text-mono,
 /* devtools */
-td.line-content,
+/* td.line-content, */
 /* uBlock inspect */
 #ublock0-epicker .changeFilter > li, #ublock0-epicker aside > section > div:first-child > textarea
 {

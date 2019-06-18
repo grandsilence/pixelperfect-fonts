@@ -1,7 +1,12 @@
 {
-    "name": "Pixel Perfect - DevTools",
-    "version": "1.0.0",
-    "description": "A customized theme for Chrome Devtools with non-antialiased fonts.",
-    "devtools_page": "devtools.html",
-    "manifest_version": 2
+	"name": "Pixel Perfect - DevTools",
+	"version": "1.1.0",
+	"description": "A customized theme for Chrome Devtools with non-antialiased fonts.",
+	"devtools_page": "devtools.html",
+	"manifest_version": 2,
+	"icons": { 
+		"16": "icons/16.png",
+		"48": "icons/48.png",
+		"128": "icons/128.png" 
+	}
 }

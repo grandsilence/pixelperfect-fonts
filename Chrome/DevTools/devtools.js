@@ -17,7 +17,7 @@ body, .platform-windows, .monospace, .source-code {
 :host-context(.platform-windows) .source-code,
 .platform-windows .monospace,
 .platform-windows .source-code
- {
+{
     font-size: 12px !important;
     font-family: "Terminus (TTF) for Windows", Consolas, monospace !important;
 }
