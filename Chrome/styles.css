@@ -1,25 +1,29 @@
+:root {
+	--pixelperfect-font-sans: Arial, Tahoma, sans-serif;
+	--pixelperfect-font-mono: "Terminus (TTF) for Windows", Consolas, monospace;
+	--pixelperfect-font-mono-size: 12px;
+
+	/* Shadow chrome framework */
+	--paper-input-container-shared-input-style_-_font-family: var(--pixelperfect-font-sans) !important;
+	--paper-font-common-base_-_font-family: var(--pixelperfect-font-sans) !important;
+}
+
 /* root as solution without !important */
 :root body:not(#-blink-dev-tools) :not([class*="icon-"]):not([class*="fa-"]):not(.fa):not([class*="cm-"]):not([class*="ti-"]):not([class*="ms-Icon--"]):not([class*="rouble"]):not([class="font-fontello"]):not([class="mdi"]):not([class*="mdi-"]):not([class*="ace_"]):not([role="presentation"])
 {
-	font-family: Arial, Tahoma, sans-serif;
-}
-
-:root {
-	--paper-input-container-shared-input-style_-_font-family: Arial, Tahoma, sans-serif !important;
-	--paper-font-common-base_-_font-family: Arial, Tahoma, sans-serif !important;
+	font-family: var(--pixelperfect-font-sans);
 }
 
 html, body:not([id="-blink-dev-tools"]),
-h1, h2, h3, h4, h5, h6, input {
-	font-family: Arial, Tahoma, sans-serif !important;
+h1, h2, h3, h4, h5, h6, input,
+/* Recaptcha */
+:host(.rc-anchor-checkbox-label)
+{
+	font-family: var(--pixelperfect-font-sans) !important;
 }
 
 b, strong {
-    font-weight: 600 !important;
-}
-
-.selector__glyph-image {
-	font-family: fontello !important;
+	font-weight: 600 !important;
 }
 
 var, pre, pre *,
@@ -27,13 +31,28 @@ code, code *,
 .sql-highlight span,
 [class*="highlight-source-"] *, .highlight *, .w3-code *,
 #code_frame2 *, #code_frame *,
-.line-gutter-backdrop + table {
-	font-family: "Terminus (TTF) for Windows", Consolas, monospace !important;
-	font-size: 12px !important;
+.line-gutter-backdrop + table,
+p.text-mono, div.text-mono, span.text-mono,
+/* devtools */
+td.line-content,
+/* uBlock inspect */
+#ublock0-epicker .changeFilter > li, #ublock0-epicker aside > section > div:first-child > textarea
+{
+	font-family: var(--pixelperfect-font-mono) !important;
+	font-size: var(--pixelperfect-font-mono-size) !important;
 }
 
-/* devtools */
-td.line-content {
-	font-family: "Terminus (TTF) for Windows", Consolas, monospace !important;
-	font-size: 12px !important;	
+/* Recaptcha "I'm not a robot" */
+.rc-anchor-checkbox-label {
+	font-family: var(--pixelperfect-font-sans) !important;
+}
+
+/* Fontello */
+.selector__glyph-image {
+	font-family: fontello !important;
+}
+
+/* Digiseller */
+.api_template .title_block {
+	font-family: var(--pixelperfect-font-sans) !important;
 }
