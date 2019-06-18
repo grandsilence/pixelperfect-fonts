@@ -52,7 +52,20 @@ p.text-mono, div.text-mono, span.text-mono,
 	font-family: fontello !important;
 }
 
-/* Digiseller */
+/* Digiseller API docs */
 .api_template .title_block {
+	font-family: var(--pixelperfect-font-sans) !important;
+}
+/* Digiseller default store */
+#digiseller-body div.digiseller-row .digiseller-top-bar section ul section li a,
+#digiseller-body div.digiseller-row .digiseller-top-bar section ul li a,
+#digiseller-body div.digiseller-row .digiseller-top-bar section ul section li.digiseller-hmenu-withsub li a,
+#digiseller-body div.digiseller-row .digiseller-top-bar.digiseller-side-nav ul li a,
+#digiseller-body *,
+#digiseller-body .digiseller-reveal-modal *,
+#digiseller-body .digiseller-row *,
+#digiseller-body .digiseller-reveal-modal input[type="number"],
+#digilogo div
+{
 	font-family: var(--pixelperfect-font-sans) !important;
 }
