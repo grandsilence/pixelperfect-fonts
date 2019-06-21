@@ -52,6 +52,18 @@ p.text-mono, div.text-mono, span.text-mono,
 	font-family: fontello !important;
 }
 
+/* Syntax highlighting */
+div.syntaxhighlighter a,div.syntaxhighlighter div,div.syntaxhighlighter code,div.syntaxhighlighter table,div.syntaxhighlighter table td,div.syntaxhighlighter table tr,div.syntaxhighlighter table tbody,div.syntaxhighlighter table thead,div.syntaxhighlighter table caption,div.syntaxhighlighter textarea {
+	font-family: var(--pixelperfect-font-mono) !important;
+	font-size: var(--pixelperfect-font-mono-size) !important;
+}
+
+/* Monaco font editor */
+.monaco-editor * {
+	font-family: var(--pixelperfect-font-mono) !important;
+	font-size: var(--pixelperfect-font-mono-size) !important;
+}
+
 /* Digiseller API docs */
 .api_template .title_block {
 	font-family: var(--pixelperfect-font-sans) !important;
