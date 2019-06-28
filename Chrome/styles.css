@@ -58,10 +58,16 @@ div.syntaxhighlighter a,div.syntaxhighlighter div,div.syntaxhighlighter code,div
 	font-size: var(--pixelperfect-font-mono-size) !important;
 }
 
-/* Monaco font editor */
+/* Monaco code editor */
 .monaco-editor * {
 	font-family: var(--pixelperfect-font-mono) !important;
 	font-size: var(--pixelperfect-font-mono-size) !important;
+}
+
+/* ACE code editor */
+.ace_editor {
+	font-family: var(--pixelperfect-font-mono) !important;
+	font-size: var(--pixelperfect-font-mono-size) !important;	
 }
 
 /* Digiseller API docs */
