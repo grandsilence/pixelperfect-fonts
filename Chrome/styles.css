@@ -67,7 +67,12 @@ div.syntaxhighlighter a,div.syntaxhighlighter div,div.syntaxhighlighter code,div
 /* ACE code editor */
 .ace_editor {
 	font-family: var(--pixelperfect-font-mono) !important;
-	font-size: var(--pixelperfect-font-mono-size) !important;	
+	font-size: var(--pixelperfect-font-mono-size) !important;
+}
+
+div.crayon-syntax * {
+	font-family: var(--pixelperfect-font-mono) !important;
+	font-size: var(--pixelperfect-font-mono-size) !important;
 }
 
 /* Digiseller API docs */
