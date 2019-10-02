@@ -92,4 +92,8 @@ div.crayon-syntax * {
 {
 	font-family: var(--pixelperfect-font-sans) !important;
 }
-/* test */
+
+/* Google fix blurry text */
+#cnt.big {
+	transform: none !important;
+}
