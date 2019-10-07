@@ -94,6 +94,6 @@ div.crayon-syntax * {
 }
 
 /* Google fix blurry text */
-#cnt.big {
+/*#cnt.big {
 	transform: none !important;
-}
+}*/
