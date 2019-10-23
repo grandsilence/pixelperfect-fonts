@@ -32,7 +32,7 @@ code, code *,
 [class*="highlight-source-"] *, .highlight *, .w3-code *,
 #code_frame2 *, #code_frame *,
 .line-gutter-backdrop + table,
-p.text-mono, div.text-mono, span.text-mono, pre.text-monospace,
+a.text-mono, p.text-mono, div.text-mono, span.text-mono, pre.text-monospace,
 /* devtools */
 /* td.line-content, */
 /* uBlock inspect */
