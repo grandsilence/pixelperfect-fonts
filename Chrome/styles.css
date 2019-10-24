@@ -26,13 +26,15 @@ b, strong {
 	font-weight: 600 !important;
 }
 
-var, pre, pre *,
-code, code *, 
+:root var, :root pre, :root pre *,
+:root code, :root code *,
+:root kbd, :root samp,
 .sql-highlight span,
 [class*="highlight-source-"] *, .highlight *, .w3-code *,
 #code_frame2 *, #code_frame *,
 .line-gutter-backdrop + table,
-a.text-mono, p.text-mono, div.text-mono, span.text-mono, pre.text-monospace,
+:root .text-mono, :root .text-monospace,
+/* a.text-mono, p.text-mono, div.text-mono, span.text-mono, pre.text-monospace, */
 /* devtools */
 /* td.line-content, */
 /* uBlock inspect */
