@@ -1,0 +1,34 @@
+/* Global font */
+.monaco-shell, .windows {
+	font-family: Tahoma, Arial, sans-serif !important;
+	--monaco-monospace-font: 'Terminus (TTF) for Windows', Consolas, 'Courier New', monospace !important;
+}
+/* Remove italic for selected file */
+.monaco-icon-label.italic>.monaco-icon-label-description-container>.label-description, .monaco-icon-label.italic>.monaco-icon-label-description-container>.label-name {
+	font-style: normal !important;
+	color: #c5b482;
+}
+/* Console bar */
+.monaco-workbench>.part.panel>.title>.panel-switcher-container>.monaco-action-bar .action-item {
+	text-transform: none !important;
+}
+/* Reduse font size global */
+.monaco-workbench, .monaco-action-bar .action-label, .monaco-workbench>.part>.content, .monaco-workbench>.part.statusbar {
+	font-size: 11px !important;
+}
+/* Remove useless status bar icons */
+.send-feedback, .__CUSTOM_CSS_JS_INDICATOR_CLS {
+	display: none !important;
+}
+/* Remove sidebar outline */
+.monaco-shell [tabindex="0"]:focus, .monaco-shell .synthetic-focus, .monaco-shell select:focus, .monaco-shell .monaco-tree.focused.no-focused-item:focus:before, .monaco-shell .monaco-list:not(.element-focused):focus:before, .monaco-shell input[type="button"]:focus, .monaco-shell input[type="text"]:focus, .monaco-shell button:focus, .monaco-shell textarea:focus, .monaco-shell input[type="search"]:focus, .monaco-shell input[type="checkbox"]:focus {
+	outline: none !important;
+}
+/* Fix git commit message min height */
+.scm-viewlet .scm-editor>.monaco-inputbox>.wrapper>textarea.input {
+	min-height: 38px !important;
+}
+/* Fix extension readme code */
+.extension-editor>.body>.content table code:not(:empty) {
+	font-size: 12px !important;
+}
