@@ -99,3 +99,8 @@ div.crayon-syntax * {
 /*#cnt.big {
 	transform: none !important;
 }*/
+
+/* Google Docs input font */
+input.goog-toolbar-combo-button-input {
+	font-family: var(--pixelperfect-font-sans) !important;
+}
