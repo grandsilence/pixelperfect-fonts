@@ -118,3 +118,6 @@ input.goog-toolbar-combo-button-input {
 .CodeMirror.cm-s-github-light .CodeMirror-lines span {
 	font-size: var(--pixelperfect-font-mono-size-with-styling) !important;
 }
+.markdown-body code {
+	font-size: inherit !important;
+}
