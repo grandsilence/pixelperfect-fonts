@@ -1,7 +1,8 @@
 :root {
 	--pixelperfect-font-sans: Arial, Tahoma, sans-serif;
 	--pixelperfect-font-mono: "Terminus (TTF) for Windows", Consolas, monospace;
-	--pixelperfect-font-mono-size: 14px;
+	--pixelperfect-font-mono-size: 12px;
+	--pixelperfect-font-mono-size-with-styling: 14px;
 
 	/* Shadow chrome framework */
 	--paper-input-container-shared-input-style_-_font-family: var(--pixelperfect-font-sans) !important;
@@ -109,4 +110,11 @@ input.goog-toolbar-combo-button-input {
 /* Gist Github Code Editor Height Fix */ 
 .CodeMirror.cm-s-github-light.CodeMirror-wrap {
 	height: 100% !important;
+}
+.CodeMirror.cm-s-github-light .CodeMirror-linenumber {
+	font-family: var(--pixelperfect-font-mono) !important;
+	font-size: var(--pixelperfect-font-mono-size-with-styling) !important;
+}
+.CodeMirror.cm-s-github-light .CodeMirror-lines span {
+	font-size: var(--pixelperfect-font-mono-size-with-styling) !important;
 }
