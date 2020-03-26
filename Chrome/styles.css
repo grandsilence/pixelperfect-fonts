@@ -1,7 +1,7 @@
 :root {
 	--pixelperfect-font-sans: Arial, Tahoma, sans-serif;
 	--pixelperfect-font-mono: "Terminus (TTF) for Windows", Consolas, monospace;
-	--pixelperfect-font-mono-size: 12px;
+	--pixelperfect-font-mono-size: 14px;
 
 	/* Shadow chrome framework */
 	--paper-input-container-shared-input-style_-_font-family: var(--pixelperfect-font-sans) !important;
@@ -9,7 +9,8 @@
 }
 
 /* root as solution without !important */
-:root body:not(#-blink-dev-tools) :not([class*="icon-"]):not([class*="fa-"]):not(.fa):not(.icon):not(.ui-icon):not(.material-icons):not(.glyphicons):not(.mce-ico):not([class*="dashicons-"]):not(.dashicons):not([class*="cm-"]):not(.lg-icon):not([class*="ti-"]):not([class*="ms-Icon--"]):not(.rouble):not(.ruble):not(.font-fontello):not(.mdi):not([class*="mdi-"]):not(.b-font-regicons):not([class*="ace_"]):not([role="presentation"]):not([aria-hidden="true"])
+:root body:not(#-blink-dev-tools) :not([class*="icon-"]):not([class*="fa-"]):not(.fa):not(.icon):not(.ui-icon):not(.material-icons):not(.glyphicons):not(.mce-ico):not([class*="dashicons-"]):not(.dashicons):not([class*="cm-"]):not(.lg-icon):not([class*="ti-"]):not([class*="ms-Icon--"]):not(.rouble):not(.ruble):not(.font-fontello):not(.mdi):not([class*="mdi-"]):not(.b-font-regicons):not([class*="ace_"]):not([role="presentation"]):not([aria-hidden="true"]):not([data-v-6574d60e]):not([data-v-fe3d7778]):not([data-v-0775bf40]):not(i)
+	/* TODO: remove not(i) */
 {
 	font-family: var(--pixelperfect-font-sans);
 }
@@ -103,4 +104,9 @@ div.crayon-syntax * {
 /* Google Docs input font */
 input.goog-toolbar-combo-button-input {
 	font-family: var(--pixelperfect-font-sans) !important;
+}
+
+/* Gist Github Code Editor Height Fix */ 
+.CodeMirror.cm-s-github-light.CodeMirror-wrap {
+	height: 100% !important;
 }
