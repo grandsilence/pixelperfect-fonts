@@ -111,14 +111,30 @@ input.goog-toolbar-combo-button-input {
 .CodeMirror.cm-s-github-light.CodeMirror-wrap {
 	height: 100% !important;
 }
-.CodeMirror.cm-s-github-light .CodeMirror-linenumber {
+/* .CodeMirror.cm-s-github-light */
+.CodeMirror .CodeMirror-linenumber {
 	font-family: var(--pixelperfect-font-mono) !important;
 	font-size: var(--pixelperfect-font-mono-size-with-styling) !important;
 }
-.CodeMirror.cm-s-github-light .CodeMirror-lines span {
+/* .CodeMirror.cm-s-github-light */
+.CodeMirror .CodeMirror-lines span {
 	font-size: var(--pixelperfect-font-mono-size-with-styling) !important;
 }
 .markdown-body code, .markdown-body > .highlight * {
 	/*font-size: inherit !important;*/
 	font-size: var(--pixelperfect-font-mono-size-with-styling) !important;
 }
+
+/* Pastebin */
+.csharp .co1 {
+	font-style: normal !important;
+}
+
+
+/* Aliexpress */
+/*
+.product-list .current-price {
+  font-style: normal !important;
+  font-weight: 700 !important;
+}
+*/
