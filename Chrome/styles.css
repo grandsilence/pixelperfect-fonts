@@ -10,7 +10,7 @@
 }
 
 /* root as solution without !important */
-:root body:not(#-blink-dev-tools) :not([class*="icon-"]):not([class*="fa-"]):not(.fa):not(.icon):not(.glyph):not(.ui-icon):not(.material-icons):not(.v-icon):not(.glyphicons):not(.mce-ico):not([class*="dashicons-"]):not(.dashicons):not([class*="cm-"]):not(.lg-icon):not([class*="ti-"]):not([class*="ms-Icon--"]):not(.rouble):not(.ruble):not(.font-fontello):not(.mdi):not([class*="mdi-"]):not(.b-font-regicons):not([class*="ace_"]):not([role="presentation"]):not([aria-hidden="true"]):not([data-v-6574d60e]):not([data-v-fe3d7778]):not([data-v-0775bf40]):not(i)
+:root body:not(#-blink-dev-tools) :not([class*="icon-"]):not([class*="fa-"]):not(.fa):not(.icon):not(.glyph):not(.b-star-ratings_items):not(.font-icon):not(.ui-icon):not(.material-icons):not(.v-icon):not(.glyphicons):not(.mce-ico):not([class*="dashicons-"]):not(.dashicons):not([class*="cm-"]):not(.lg-icon):not([class*="ti-"]):not([class*="ms-Icon--"]):not(.rouble):not(.ruble):not(.font-fontello):not(.mdi):not([class*="mdi-"]):not(.b-font-regicons):not([class*="ace_"]):not([role="presentation"]):not([aria-hidden="true"]):not([data-v-6574d60e]):not([data-v-fe3d7778]):not([data-v-0775bf40]):not(i)
 	/* TODO: remove not(i) */
 {
 	font-family: var(--pixelperfect-font-sans);
@@ -130,6 +130,12 @@ input.goog-toolbar-combo-button-input {
 	font-style: normal !important;
 }
 
+
+/* YouTube Subtitles */
+.ytp-caption-segment {
+	font-family: var(--pixelperfect-font-sans) !important;
+	/*font-size: 18px !important;*/
+}
 
 /* Aliexpress */
 /*

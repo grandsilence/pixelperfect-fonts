@@ -7,7 +7,9 @@ body, .platform-windows, .monospace, .source-code {
 	width: auto !important;
 }
 .tabbed-pane-header-tab.selected {
-	background-color: #dedede;
+	font-weight: bold;
+	background-color: transparent;
+	/*background-color: #dedede;*/
 }
 .tabbed-pane-tab-slider {
 	display: none;
