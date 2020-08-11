@@ -1,8 +1,8 @@
 :root {
 	--pixelperfect-font-sans: Arial, Tahoma, sans-serif;
 	--pixelperfect-font-mono: "Terminus (TTF) for Windows", Consolas, monospace;
-	--pixelperfect-font-mono-size: 14px;
-	--pixelperfect-font-mono-size-with-styling: 14px;
+	--pixelperfect-font-mono-size: 12px;
+	--pixelperfect-font-mono-size-with-styling: 12px;
 
 	/* Shadow chrome framework */
 	--paper-input-container-shared-input-style_-_font-family: var(--pixelperfect-font-sans) !important;
@@ -10,7 +10,7 @@
 }
 
 /* root as solution without !important */
-:root body:not(#-blink-dev-tools) :not([class*="icon-"]):not([class*="fa-"]):not(.fa):not(.fas):not(.vjs-control):not(.icon):not(.glyph):not(.b-star-ratings_items):not(.font-icon):not(.ui-icon):not(.material-icons):not(.v-icon):not(.glyphicons):not(.mce-ico):not([class*="dashicons-"]):not(.dashicons):not([class*="cm-"]):not(.lg-icon):not([class*="ti-"]):not([class*="ms-Icon--"]):not(.rouble):not(.ruble):not(.font-fontello):not(.mdi):not([class*="mdi-"]):not(.b-font-regicons):not([class*="ace_"]):not([role="presentation"]):not([aria-hidden="true"]):not([data-v-6574d60e]):not([data-v-fe3d7778]):not([data-v-0775bf40]):not(i):not(.owl-prev):not(.owl-next)
+:root body:not(#-blink-dev-tools) :not([class*="icon-"]):not([class*="fa-"]):not(.docon):not(.fa):not(.fas):not(.vjs-control):not(.icon):not(.glyph):not(.b-star-ratings_items):not(.font-icon):not(.ui-icon):not(.material-icons):not(.v-icon):not(.glyphicons):not(.mce-ico):not([class*="dashicons-"]):not(.dashicons):not([class*="cm-"]):not(.lg-icon):not([class*="ti-"]):not([class*="ms-Icon--"]):not(.rouble):not(.ruble):not(.font-fontello):not(.mdi):not([class*="mdi-"]):not(.b-font-regicons):not([class*="ace_"]):not([role="presentation"]):not([aria-hidden="true"]):not([data-v-6574d60e]):not([data-v-fe3d7778]):not([data-v-0775bf40]):not(i):not(.owl-prev):not(.owl-next)
 	/* TODO: remove not(i) */
 {
 	font-family: var(--pixelperfect-font-sans);
