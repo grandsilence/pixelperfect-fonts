@@ -1,8 +1,8 @@
 :root {
 	--pixelperfect-font-sans: Arial, Tahoma, sans-serif;
 	--pixelperfect-font-mono: "Terminus (TTF) for Windows", Consolas, monospace;
-	--pixelperfect-font-mono-size: 14px;
-	--pixelperfect-font-mono-size-with-styling: 14px;
+	--pixelperfect-font-mono-size: 12px;
+	--pixelperfect-font-mono-size-with-styling: 12px;
 
 	/* Shadow chrome framework */
 	--paper-input-container-shared-input-style_-_font-family: var(--pixelperfect-font-sans) !important;
