@@ -131,6 +131,14 @@ input.goog-toolbar-combo-button-input {
 	font-style: normal !important;
 }
 
+/* GhostBin */
+#code, .code {
+font-size: var(--pixelperfect-font-mono-size-small) !important;
+	font-family: var(--pixelperfect-font-mono) !important;
+	font-size: var(--pixelperfect-font-mono-size-small) !important;
+	letter-spacing: normal !important;
+}
+
 /* YouTube Subtitles */
 .ytp-caption-segment {
 	font-family: var(--pixelperfect-font-sans) !important;
