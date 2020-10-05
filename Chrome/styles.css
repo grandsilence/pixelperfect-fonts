@@ -35,7 +35,6 @@ b, strong {
 .sql-highlight span,
 [class*="highlight-source-"] *, .highlight:not(#sidebar-toggle) *, .w3-code *,
 #code_frame2 *, #code_frame *,
-.line-gutter-backdrop + table,
 :root .text-mono, :root .text-monospace,
 /* uBlock inspect */
 #ublock0-epicker .changeFilter > li, #ublock0-epicker aside > section > div:first-child > textarea
@@ -149,4 +148,12 @@ body.page-gist-edit .CodeMirror .CodeMirror-linenumber,
 body.page-gist-edit .CodeMirror .CodeMirror-lines span,
 body.page-gist-edit .markdown-body code, .markdown-body > .highlight * {
 	font-size: var(--pixelperfect-font-mono-size-medium) !important;
+}
+
+/* Chrome Source Code Page */
+:root .line-gutter-backdrop + table *
+{
+	font-family: var(--pixelperfect-font-mono) !important;
+	font-size: var(--pixelperfect-font-mono-size-small) !important;
+	letter-spacing: normal !important;
 }
