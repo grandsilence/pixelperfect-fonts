@@ -169,3 +169,10 @@ body.page-gist-edit .markdown-body code, .markdown-body > .highlight * {
 	font-size: 13px !important;
 	letter-spacing: normal !important;
 }
+
+/* Simplenote fixes */
+.app-layout__note-column .monaco-editor * {
+	font-family: var(--pixelperfect-font-sans) !important;
+	font-size: var(--pixelperfect-font-mono-size-large) !important;
+	letter-spacing: inherit !important;
+}
