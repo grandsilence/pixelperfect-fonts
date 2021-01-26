@@ -157,3 +157,15 @@ body.page-gist-edit .markdown-body code, .markdown-body > .highlight * {
 	font-size: var(--pixelperfect-font-mono-size-small) !important;
 	letter-spacing: normal !important;
 }
+
+/* Deepl */
+.no_montserrat_body #dl_translator * {
+	font-family: var(--pixelperfect-font-sans) !important;
+}
+
+/* Notion Code Block */
+.notion-code-block * {
+	font-family: var(--pixelperfect-font-mono) !important;
+	font-size: 13px !important;
+	letter-spacing: normal !important;
+}
