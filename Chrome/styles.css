@@ -159,8 +159,8 @@ body.page-gist-edit .markdown-body code, .markdown-body > .highlight * {
 }
 
 /* Deepl */
-.no_montserrat_body #dl_translator * {
-	font-family: var(--pixelperfect-font-sans) !important;
+.dl_translator_page_container *:not(.fa), .no_montserrat_body #dl_translator * {
+	font-family: var(--pixelperfect-font-sans) !important;	
 }
 
 /* Notion Code Block */
