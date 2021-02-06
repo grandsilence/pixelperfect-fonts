@@ -99,6 +99,11 @@ div.crayon-syntax * {
 	font-family: var(--pixelperfect-font-sans) !important;
 }
 
+/* Google Fix Letter Spacing */
+#gac_scont + #main.main * {
+	letter-spacing: inherit;
+}
+
 /* Google Docs input font */
 input.goog-toolbar-combo-button-input {
 	font-family: var(--pixelperfect-font-sans) !important;
