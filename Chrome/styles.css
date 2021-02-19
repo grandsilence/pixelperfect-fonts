@@ -100,7 +100,10 @@ div.crayon-syntax * {
 }
 
 /* Google Fix Letter Spacing */
-#gac_scont + #main.main * {
+/*#gac_scont + #main.main * {
+	letter-spacing: inherit;
+}*/
+#gsr #main.main * {
 	letter-spacing: inherit;
 }
 
