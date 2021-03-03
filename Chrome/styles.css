@@ -166,6 +166,13 @@ body.page-gist-edit .markdown-body code, .markdown-body > .highlight * {
 	font-size: var(--pixelperfect-font-mono-size-medium) !important;
 }
 
+/* GitHub old style */
+#js-repo-pjax-container > .color-bg-secondary {
+	max-width: 1280px;
+	margin: 0 auto;
+	position: relative;
+}
+
 /* Chrome Source Code Page */
 :root .line-gutter-backdrop + table *
 {
@@ -190,5 +197,11 @@ body.page-gist-edit .markdown-body code, .markdown-body > .highlight * {
 .app-layout__note-column .monaco-editor * {
 	font-family: var(--pixelperfect-font-sans) !important;
 	font-size: var(--pixelperfect-font-mono-size-large) !important;
+	letter-spacing: inherit !important;
+}
+
+/* Webmoney Wallet */
+.wm-control__body input:not([type=checkbox]), .wm-control__body select, .wm-control__body textarea, .wm-control__lite-input {
+	font-family: var(--pixelperfect-font-sans) !important;
 	letter-spacing: inherit !important;
 }
