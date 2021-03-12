@@ -185,8 +185,8 @@ body.page-gist-edit .markdown-body code, .markdown-body > .highlight * {
 }
 
 /* Deepl */
-.dl_translator_page_container *:not(.fa), .no_montserrat_body #dl_translator * {
-	font-family: var(--pixelperfect-font-sans) !important;	
+html:not(.useSystemSansFont) body.dl_body--translator *:not(.fa) {
+	font-family: var(--pixelperfect-font-sans) !important;
 }
 
 /* Notion Code Block */
@@ -196,7 +196,7 @@ body.page-gist-edit .markdown-body code, .markdown-body > .highlight * {
 	letter-spacing: normal !important;
 }
 
-/* Simplenote fixes */
+/* Simple Note fixes */
 .app-layout__note-column .monaco-editor * {
 	font-family: var(--pixelperfect-font-sans) !important;
 	font-size: var(--pixelperfect-font-mono-size-large) !important;
