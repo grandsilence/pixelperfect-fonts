@@ -37,3 +37,8 @@
 .scm-view .view-lines.monaco-mouse-cursor-text {
 	font-family: inherit !important;
 }
+
+/* Fix font size for empty workspace */
+.watermark-box {
+	font-size: 12px !important;
+}

@@ -176,6 +176,12 @@ body.page-gist-edit .markdown-body code, .markdown-body > .highlight * {
 	position: relative;
 }
 
+/* GitHub Diff Code Eitor */
+.blob-code-inner span {
+	font-family: var(--pixelperfect-font-mono) !important;
+	letter-spacing: normal !important;
+}
+
 /* Chrome Source Code Page */
 :root .line-gutter-backdrop + table *
 {
