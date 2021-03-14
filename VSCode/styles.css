@@ -32,3 +32,8 @@
 .extension-editor>.body>.content table code:not(:empty) {
 	font-size: 12px !important;
 }
+
+/* Fix commit message font */
+.scm-view .view-lines.monaco-mouse-cursor-text {
+	font-family: inherit !important;
+}
