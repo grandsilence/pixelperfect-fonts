@@ -140,10 +140,14 @@ input.goog-toolbar-combo-button-input {
 .csharp .co1 {
 	font-style: normal !important;
 }
+.highlighted-code .source, .highlighted-code .source ol li * {
+	font-family: var(--pixelperfect-font-mono) !important;
+	font-size: var(--pixelperfect-font-mono-size-small) !important;
+	letter-spacing: normal !important;
+}
 
 /* GhostBin */
 #code, .code {
-font-size: var(--pixelperfect-font-mono-size-small) !important;
 	font-family: var(--pixelperfect-font-mono) !important;
 	font-size: var(--pixelperfect-font-mono-size-small) !important;
 	letter-spacing: normal !important;
