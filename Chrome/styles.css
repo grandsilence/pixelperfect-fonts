@@ -16,7 +16,7 @@
 }
 
 /* root as solution without !important */
-:root body:not(#-blink-dev-tools) :not([class*="icon-"]):not([class*="fa-"]):not([class*="i-"]):not(.docon):not(.fa):not(.t-icon):not(.fas):not(.vjs-control):not(.icon):not(.glyph):not(.b-star-ratings_items):not(.font-icon):not(.ui-icon):not(.material-icons):not(.v-icon):not(.glyphicons):not(.mce-ico):not([class*="dashicons-"]):not(.dashicons):not([class*="cm-"]):not(.lg-icon):not([class*="ti-"]):not([class*="ms-Icon--"]):not(.rouble):not(.ruble):not(.font-fontello):not(.mdi):not([class*="mdi-"]):not(.b-font-regicons):not([class*="ace_"]):not([role="presentation"]):not([aria-hidden="true"]):not([data-v-6574d60e]):not([data-v-fe3d7778]):not([data-v-0775bf40]):not(i):not(.owl-prev):not(.owl-next)
+:root body:not(#-blink-dev-tools) :not([class*="icon-"]):not([class*="fa-"]):not([class*="i-"]):not([class*="fonticon"]):not(.docon):not(.fa):not(.t-icon):not(.fas):not(.vjs-control):not(.icon):not(.glyph):not(.b-star-ratings_items):not(.font-icon):not(.ui-icon):not(.material-icons):not(.v-icon):not(.glyphicons):not(.mce-ico):not([class*="dashicons-"]):not(.dashicons):not([class*="cm-"]):not(.lg-icon):not([class*="ti-"]):not([class*="ms-Icon--"]):not(.rouble):not(.ruble):not(.font-fontello):not(.mdi):not([class*="mdi-"]):not(.b-font-regicons):not([class*="ace_"]):not([role="presentation"]):not([aria-hidden="true"]):not([data-v-6574d60e]):not([data-v-fe3d7778]):not([data-v-0775bf40]):not(i):not(.owl-prev):not(.owl-next)
 	/* TODO: remove not(i) */
 {
 	font-family: var(--pixelperfect-font-sans);
@@ -179,11 +179,23 @@ body.page-gist-edit .markdown-body code, .markdown-body > .highlight * {
 }
 
 /* GitHub old style */
-#js-repo-pjax-container > .color-bg-secondary {
-	max-width: 1280px;
+#js-repo-pjax-container {
+	max-width: 1024px;
 	margin: 0 auto;
 	position: relative;
 }
+#repo-content-pjax-container .gutter-condensed {
+	position: relative;
+}
+#repo-content-pjax-container .gutter-condensed .col-md-9 {
+	width: 100%;
+}
+/* Gh sidebar */
+#repo-content-pjax-container .gutter-condensed .col-md-3 {
+	position: absolute;
+	right: -25%;
+}
+
 
 /* GitHub Diff Code Eitor */
 .blob-code-inner span {
