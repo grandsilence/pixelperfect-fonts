@@ -237,11 +237,16 @@ html:not(.useSystemSansFont) body.dl_body--translator *:not(.fa) {
 }
 
 /* Vultr Fix Buttions in CP */
-
 #header2_right.server_actions .header2_viewconsole,
 #header2_right.server_actions .header2_substop,
 #header2_right.server_actions .header2_subrestart,
 #header2_right.server_actions .header2_subreinstall,
 #header2_right.server_actions .header2_subdestroy {
 	font-family: "Material-Design-Iconic-Font" !important;
+}
+
+/* Fix AliExpress Font */
+.ali-kit_Base__base__1odrub {
+	font-family: var(--pixelperfect-font-sans) !important;
+	letter-spacing: inherit !important;
 }
